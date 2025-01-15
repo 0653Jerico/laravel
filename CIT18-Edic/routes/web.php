@@ -1,10 +1,14 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App/Http/Controller/GreetController;
+use App\Http\Controllers\GreetController;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route:get('/greetings',[GreetController::class, 'showGreeting';])
+Route::get('/hello', function () {
+    return 'Hello, Laravel';
+});
+
+Route::get('/greetings',[GreetController::class, 'showGreetings']);
