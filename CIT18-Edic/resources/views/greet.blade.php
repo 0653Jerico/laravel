@@ -7,7 +7,7 @@
     <title>Greet</title>
 </head>
 <body>
-    <h2 class="text-3xl text-center font-bold mb-6">Hello, Welcome to Mastery in Web Technologies</h2>
+    <h2 class="text-3xl text-center bg-amber-500 font-bold mb-6">Hello, Welcome to Mastery in Web Technologies</h2>
     <p>This is a paragraph</p>
 </body>
 </html>
